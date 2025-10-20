@@ -4,7 +4,7 @@ document.getElementById('calcBtn').addEventListener('click', () => {
     const output = document.getElementById('outputArea');
 
     if (isNaN(weight) || isNaN(height) || height <= 0) {
-        output.textContent = "⚠ Please enter valid weight and height values.";
+        output.textContent = " Please enter valid weight and height values.";
         return;
     }
 
