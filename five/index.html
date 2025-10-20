@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQL Clinic BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>SQL Clinic BMI Calculator</h1>
+        <p>
+            Enter your weight (in kilograms) and height (in meters) to calculate your BMI 
+            and determine your weight category.
+        </p>
+    </header>
+
+    <main>
+        <section>
+            <label for="weight">Weight (kg):</label>
+            <input type="number" id="weight" placeholder="e.g. 70">
+
+            <label for="height">Height (m):</label>
+            <input type="number" id="height" step="0.01" placeholder="e.g. 1.75">
+
+            <button id="calcBtn">Calculate BMI</button>
+        </section>
+
+        <section class="output">
+            <h3>Result:</h3>
+            <p id="outputArea"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 SQL Clinic | Health Systems</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

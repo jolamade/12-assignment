@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAUTECH Weather Categorizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>LAUTECH Weather Station</h1>
+        <p>
+            Categorize the temperature as <strong>Cold</strong> (below 19°C), 
+            <strong>Warm</strong> (20°C to 28°C), or <strong>Hot</strong> (above 28°C).
+        </p>
+    </header>
+
+    <main>
+        <section>
+            <label for="tempInput">Enter Temperature (°C):</label>
+            <input type="number" id="tempInput" placeholder="e.g. 25">
+            <button id="checkBtn">Categorize</button>
+        </section>
+
+        <section class="output">
+            <h3>Result:</h3>
+            <p id="outputArea"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 LAUTECH Weather Station</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
